@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: ${{ github.actor == 'gedoor' }}
+    if: ${{ github.actor == 'lookforwardxu' }}
     steps:
       - uses: actions/checkout@v2
         with:
